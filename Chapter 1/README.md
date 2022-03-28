@@ -1,5 +1,5 @@
 # Chapter 1. Transfer Learning (전이 학습)
-- Transfer Learning (전이 학습) : 특정 태스크를 학습한 모델을 다른 테스크 수행에 재사용하는 기법
+- Transfer Learning (전이 학습) : 특정 태스크를 학습한 모델을 다른 테스크 수행에 재사용하는 기법<br><br>
 ![transfer_learning](https://user-images.githubusercontent.com/86700191/160394941-8f05e644-1022-4d4c-a5b8-30fea5d11d9e.png)
 
 
