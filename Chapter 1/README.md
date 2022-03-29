@@ -24,9 +24,14 @@
         <li type="i">few-shot learning : 다운스크림 태스크 데이터를 일부만 사용하여 어떻게 수행되는지 참고한 뒤 다운스크림 태스크를 수행한다.</li>
       </ul>
   </dl>
-  
-  - 문서분류
-  - 자연어 추론
-  - 개체명 인식
-  - 질의응답
-  - 문장생성
+
+  - 문서분류<br><br>
+  ![downscream01](https://user-images.githubusercontent.com/86700191/160618194-aae24451-6e73-4205-863f-79a6d9db14e8.png)
+  - 자연어 추론<br><br>
+  ![downscream02](https://user-images.githubusercontent.com/86700191/160618202-b8fee884-96dc-483a-ba0c-840a5ec4484f.png)
+  - 개체명 인식<br><br>
+  ![downscream03](https://user-images.githubusercontent.com/86700191/160618204-45246f69-a1a1-4208-8a6d-b726396c3dc4.png)
+  - 질의응답<br><br>
+  ![downscream04](https://user-images.githubusercontent.com/86700191/160618205-31120e87-1ebb-4c37-b452-91692d701d72.png)
+  - 문장생성<br><br>
+  ![downscream05](https://user-images.githubusercontent.com/86700191/160618208-de3b03df-945b-44e2-92a3-d6ebad26b99a.png)
