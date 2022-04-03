@@ -52,3 +52,6 @@
 <br><br>
 이러한 결과에 셀프 어텐션 모듈은 값 벡터를 가중합(weighted sum)하는 방식으로 계산을 마무리 한다. '카페'벡터는 다음과 같이 나타낼 수 있다.<br><br>
 ![attention03](https://user-images.githubusercontent.com/86700191/161295613-1ca1fccf-276c-42f3-afc8-9ffae14d6895.png)
+
+    - 인코더와 디코더에서의 셀프 어텐션<br><br>
+    ![attention04](https://user-images.githubusercontent.com/86700191/161415215-da3dbcde-d05d-4126-8a0c-84a46f813f3c.png)
