@@ -55,3 +55,12 @@
 
     - 인코더와 디코더에서의 셀프 어텐션<br><br>
     ![attention04](https://user-images.githubusercontent.com/86700191/161415215-da3dbcde-d05d-4126-8a0c-84a46f813f3c.png)
+
+  - GPT 모델 : GPT의 모델 구조는 트랜스포머에서 인코더를 제외하고 디코더만 사용한다. 따라서 디코더 블록 내에 인코더에서 넘어오는 정보를 받는 멀티 헤드 어텐션도 사용하지 않는다.<br><br>
+  ![GPT01](https://user-images.githubusercontent.com/86700191/161427371-ef1a2c55-c167-42bd-bb2e-5f448ecd3da7.png)
+  <br><br>
+  '거기'를 맞춰야 하는 상황에서 GPT 모델은 '어제'. '카페', '갔었어' 3개의 단어만 참고한다. 나머지 정답 단어 이후의 모든 단어는 참고를 할 수 없게끔 처리해준다. 
+  이것을 마스킹(masking)이라고 하며, 값(value) 벡터들을 가중합 할 때, 참고할 수 없는 단어들이 0이 되도록 한다. 또한 모델 전체적으로 정답인 카페에 해당하는 확률은 높이고, 나머지 단어의 확률은 낮아지도록 업데이트 되게 된다.<br><br>
+  ![GPT02](https://user-images.githubusercontent.com/86700191/161427372-1a773d35-6e39-4b17-95d3-96e46d40fa28.png)
+  <br><br>
+  - BERT 모델 : 
