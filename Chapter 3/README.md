@@ -5,10 +5,10 @@
 
     결합 확률는 조건부 확률(conditional probability)로도 나타낼 수 있다.<br><br>
     ![language01](https://user-images.githubusercontent.com/86700191/161262302-38174ffe-2305-4cae-83c3-2df2aca5d865.png)
-<br>
+<br><br>
     ![img](https://user-images.githubusercontent.com/86700191/161262306-a66b2d3d-0c11-4c9f-8074-32e45349d331.png)
 <br><br>
-    요약하면 전체 단어 시퀀스가 나타날 확률 = 이전 단어들이 주어졌을 때 다음단어가 등장할 확훟의 연쇄 가 된다. 이 떄문에 언어모델은 이전 단어들이 주어졌을 때 다음 단어가 나타날 확률을 부여하는 모델이라고도 할 수 있다.<br><br>
+    요약하면 전체 단어 시퀀스가 나타날 확률 = 이전 단어들이 주어졌을 때 다음단어가 등장할 확률의 연쇄가 된다. 이 떄문에 언어모델은 이전 단어들이 주어졌을 때 다음 단어가 나타날 확률을 부여하는 모델이라고도 할 수 있다.<br><br>
 
     - 순방향 언어 모델 (forward language model) : 이전 단어들이 주어졌을 때 다음단어 맞히기 과정으로 문장 앞부터 뒤로 순서대로 계산하는 모델이다.<br><br>
   ![language02](https://user-images.githubusercontent.com/86700191/161266363-952870c7-2bd7-48db-b8af-a77db3e660ae.png)
