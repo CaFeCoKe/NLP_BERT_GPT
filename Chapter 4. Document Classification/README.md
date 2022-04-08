@@ -6,7 +6,7 @@
 ![BERT_Algorithm](https://user-images.githubusercontent.com/86700191/162433360-76eea65f-9982-48fa-8658-59b8813a5868.png)
 
 ## - BERT(Bidirectional Encoder Representations from Transformers) 구성<br><br>
-![BERT](https://user-images.githubusercontent.com/86700191/162212775-9cf0242b-c437-4bae-954d-1e095255b34e.png)
+![BERT](https://user-images.githubusercontent.com/86700191/162435375-d210080a-165e-4d88-ba20-201c8b2d48b8.png)
 
 ## - 결과
 - 학습 과정 결과<br><br>
@@ -14,3 +14,7 @@
 <br><br>
 - 입력한 문장 극성 판단 결과<br><br>
 ![inference2](https://user-images.githubusercontent.com/86700191/162215663-42d212e2-ee24-4f1c-9256-907de44af960.PNG)
+
+## - 사용한 언어 모델, 데이터
+- [KcBERT](https://github.com/Beomi/KcBERT) : 사전 학습 모델
+- [NSMC](https://github.com/e9t/nsmc) : 파인튜닝 데이터
