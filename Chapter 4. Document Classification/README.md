@@ -6,7 +6,7 @@
 ![BERT_Algorithm](https://user-images.githubusercontent.com/86700191/162433360-76eea65f-9982-48fa-8658-59b8813a5868.png)
 
 ## - BERT(Bidirectional Encoder Representations from Transformers) 구성<br><br>
-![BERT](https://user-images.githubusercontent.com/86700191/162435375-d210080a-165e-4d88-ba20-201c8b2d48b8.png)
+![BERT](https://user-images.githubusercontent.com/86700191/162573485-7aef0d61-a21d-4a8a-abc1-cb9835148ea1.png)
 
 ## - 결과
 - 학습 과정 결과<br><br>
