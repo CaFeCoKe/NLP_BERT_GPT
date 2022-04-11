@@ -14,3 +14,4 @@
 
 ## - 사용한 언어 모델, 데이터
 - [KcBERT](https://github.com/Beomi/KcBERT) : 사전 학습 모델
+- [한국해양대 자연언어처리연구실 공개 데이터](https://github.com/kmounlp/NER) : 파인튜닝 데이터, 개체명 형태소 말뭉치
