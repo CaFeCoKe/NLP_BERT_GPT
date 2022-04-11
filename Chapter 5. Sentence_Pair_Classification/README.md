@@ -1,6 +1,7 @@
 # Chapter 5. Sentence pair Classification
 
-## - 알고리즘 순서도
+## - 알고리즘 순서도<br><br>
+![BERT_Algorithm](https://user-images.githubusercontent.com/86700191/162696108-2578d653-4d47-4078-b844-92950ba04edc.png)
 
 ## - BERT(Bidirectional Encoder Representations from Transformers) 구성<br><br>
 ![BERT1](https://user-images.githubusercontent.com/86700191/162573508-b39e3bd1-cbbd-4b2d-abf7-f6b6554b4762.png)
