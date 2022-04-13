@@ -1,6 +1,7 @@
 # Chapter 6. Named Entity Recognition
 
-## - 알고리즘 순서도
+## - 알고리즘 순서도<br><br>
+![BERT_Algorithm](https://user-images.githubusercontent.com/86700191/163108678-e3c1bfd0-c921-4d33-8064-f008931d5c02.png)
 
 ## - BERT(Bidirectional Encoder Representations from Transformers) 구성<br><br>
 ![BERT](https://user-images.githubusercontent.com/86700191/163105957-e56e198a-5fbc-483a-86bb-4e84b856f777.png)
