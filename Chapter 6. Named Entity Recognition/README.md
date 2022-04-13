@@ -3,8 +3,10 @@
 ## - 알고리즘 순서도
 
 ## - BERT(Bidirectional Encoder Representations from Transformers) 구성<br><br>
+![BERT](https://user-images.githubusercontent.com/86700191/163105957-e56e198a-5fbc-483a-86bb-4e84b856f777.png)
 
-## - 데이터틔 태그 체계
+## - 데이터 태그 체계<br><br>
+![label](https://user-images.githubusercontent.com/86700191/163105961-994d582b-4000-4ae5-b253-e9f42391c734.PNG)
 
 ## - 결과
 - 학습 과정 결과<br><br>
