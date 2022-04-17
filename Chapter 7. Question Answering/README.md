@@ -4,7 +4,7 @@
 
 
 ## - BERT(Bidirectional Encoder Representations from Transformers) 구성<br><br>
-
+![BERT](https://user-images.githubusercontent.com/86700191/163707883-7c618742-701f-49ed-aeb3-029fae9d728f.png)
 
 ## - 결과
 - 학습 과정 결과<br><br>
