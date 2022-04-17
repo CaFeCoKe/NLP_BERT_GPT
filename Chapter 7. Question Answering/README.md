@@ -1,6 +1,7 @@
 # Chapter 7. Question Answering
 
 ## - 알고리즘 순서도<br><br>
+![BERT_Algorithm](https://user-images.githubusercontent.com/86700191/163708498-052db887-14e8-4682-9d04-006d450837f5.png)
 
 
 ## - BERT(Bidirectional Encoder Representations from Transformers) 구성<br><br>
