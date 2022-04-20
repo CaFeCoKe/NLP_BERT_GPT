@@ -4,7 +4,7 @@
 
 
 ## - GPT(Generative Pre-trained Transformer) 구성<br><br>
-
+![GPT2](https://user-images.githubusercontent.com/86700191/164159943-6834c8c9-dc23-407d-89d2-7f3cfce773c4.png)
 
 ## - 결과
 - 학습 과정 결과<br><br>
@@ -18,7 +18,7 @@
         <table border = "0">
         <tr>
             <td><img src="https://user-images.githubusercontent.com/86700191/163935983-f46ed78e-9b68-416c-b5b6-986324d3285c.PNG" width="100%" height="100%"></td>
-            <td><img src="https://user-images.githubusercontent.com/86700191/163935983-f46ed78e-9b68-416c-b5b6-986324d3285c.PNG" width="100%" height="100%"></td>
+            <td><img src="https://user-images.githubusercontent.com/86700191/164159717-52e1837b-d2e8-4c84-9bc6-4841f1e0276e.PNG" width="100%" height="100%"></td>
         </tr>
         </table><br>
 
@@ -29,6 +29,12 @@
             <td><img src="https://user-images.githubusercontent.com/86700191/163935997-96e7bccf-f055-4ab5-b884-7275067a8d87.PNG" width="100%" height="100%"></td>
         </tr>
         </table>
+
+##  - 유의점
+  - 1D-Convolution Layer (Conv1D)
+
+  - Output (generator_ids)
+
 
 ## - 사용한 언어 모델, 데이터
 - [KoGPT2](https://github.com/SKT-AI/KoGPT2) : 사전 학습 모델
