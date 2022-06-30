@@ -44,9 +44,9 @@
 (아래 예시는 LSTM으로 구성된 디코더)<br><br>
 ![seq2seq_decodet](https://user-images.githubusercontent.com/86700191/176366487-57f2c02e-35b4-4812-892d-0232240c6e31.png)
   <br><br>
-    - 트랜스포머의 인코더-디코더
+    - 트랜스포머의 인코더-디코더<br><br>
     ![transformer](https://user-images.githubusercontent.com/86700191/161271509-4fbb86d6-236a-45ff-9398-f61bc3f58963.png)
-<br><br>
+    <br><br>
     - 모델 학습과 인퍼런스 : 인코더와 디코더의 입력이 주어졌을 때, 정답에 해당하는 단어의 확률값을 높이는 방식으로 학습한다.<br><br>
     ![transformer01](https://user-images.githubusercontent.com/86700191/161276568-20305e00-59ed-4177-9ad3-de0531d79fba.png)
     <br><br>
@@ -65,7 +65,10 @@
        K = Keys : 모든 시점의 인코더 셀의 은닉 상태들
        V = Values : 모든 시점의 인코더 셀의 은닉 상태들
     ``` 
-
+    - Dot-Product Attention (닷-프로덕트 어텐션)<br><br>
+    ![dot-product attetion](https://user-images.githubusercontent.com/86700191/176394723-8cacf425-c396-4765-a840-b05d455c904f.png) <br><br>
+    위 그림은 디코더에서 출력 단어를 예측하는 마지막 시점이다. 어텐션의 최종 결과값을 얻기 위해서 각 인코더의 은닉 상태와 어텐션 가중치값들을 곱하고, 최종적으로 모두 더한다. 이 과정을 가중합(Weighted Sum)이라 하며, 
+    어텐션 함수의 출력값인 어텐션 값(Attention Value)은 인코더의 문맥을 포함하고 있다 하여 컨텍스트 벡터로 불리기도 한다. 이 어텐션 값을 디코더의 출력과 결합(concatenate)하여 출력층(Output Layer)의 입력으로 쓰이게 된다.
 <br><br>
 
   - Self Attention (셀프 어텐션) : 어텐션은 시퀀스 중 중요한 요소에 집중하고 그렇지 않은 요소는 무시하여 태스크 수행 성능을 끌어 올리는 기법이다. 셀프 어텐션은
@@ -87,8 +90,13 @@
     - 인코더와 디코더에서의 셀프 어텐션<br><br>
     ![attention04](https://user-images.githubusercontent.com/86700191/161415215-da3dbcde-d05d-4126-8a0c-84a46f813f3c.png)
 <br><br>
+    
+  - Multi-head Attention (멀티 헤드 어텐션) : 한 번의 어텐션을 하는 것보다 여러번의 어텐션을 병렬로 사용하는 것이 더 효과적이라고 판단하여 만든 어텐션의 병렬처리 방법이다. 병렬로 처리되어 나오는 각각의 어텐션의 값 행렬을 어텐션 헤드(Attentiom Head)라고 부르는데 이 값이 전부 다르다는 점은 다른 시각으로 정보들을 수집한다는 것(전부 다른 시각에서 본다는 것)이라 할 수 있다.<br><br>
+  ![multiheadattention](https://user-images.githubusercontent.com/86700191/176411385-bb11fa13-9214-4196-a67e-ce17b5223fa1.png) <br><br>
+  멀티 헤드 어텐션의 과정은 입력 벡터를 어텐션 헤드 수에 따라 분리한 뒤 병렬 어텐션을 한 후 결합하여 가중치 행렬과 행렬곱을 한다. 이렇게 해서 나온 값을 멀티 헤드 어텐션 행렬이라 하며 입력 벡터(행렬)와 같은 크기를 가진다.
+<br><br>
 
-  - GPT 모델 : GPT의 모델 구조는 트랜스포머에서 인코더를 제외하고 디코더만 사용한다. 따라서 디코더 블록 내에 인코더에서 넘어오는 정보를 받는 멀티 헤드 어텐션도 사용하지 않는다.<br><br>
+  - GPT 모델 : GPT의 모델 구조는 트랜스포머에서 인코더를 제외하고 디코더만 사용한다. 따라서 디코더 블록 내에 인코더에서 넘어오는 정보를 받는 멀티 헤드 어텐션도 사용하지 않는다. 따라서 마스크 멀티헤드 어텐션의 출력과 임베딩 벡터를 더한후 정규화한 결과를 바로 피드포워드 신경망의 입력으로 쓴다.<br><br>
   ![GPT01](https://user-images.githubusercontent.com/86700191/161427371-ef1a2c55-c167-42bd-bb2e-5f448ecd3da7.png)
   <br><br>
   '거기'를 맞춰야 하는 상황에서 GPT 모델은 '어제'. '카페', '갔었어' 3개의 단어만 참고한다. 나머지 정답 단어 이후의 모든 단어는 참고를 할 수 없게끔 처리해준다. 
