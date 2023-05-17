@@ -4,7 +4,7 @@
 ![GPT_Algorithm](https://user-images.githubusercontent.com/86700191/164381961-fe2e4d8f-e30f-4097-9df8-318250cfde21.png)
 
 ## - GPT(Generative Pre-trained Transformer) 구성<br><br>
-![GPT2](https://user-images.githubusercontent.com/86700191/164159943-6834c8c9-dc23-407d-89d2-7f3cfce773c4.png)
+![GPT2](https://github.com/CaFeCoKe/NLP_BERT_GPT/assets/86700191/2da9ccee-7892-4d6a-ad39-aa642324dc8e)
 
 ## - 결과
 - 학습 과정 결과<br><br>
